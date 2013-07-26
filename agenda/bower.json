@@ -1,0 +1,16 @@
+{
+  "name": "agenda",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "git://github.com/documentcloud/backbone.git#~1.0.0",
+    "bootstrap": "git://github.com/twitter/bootstrap.git#~2.3.2",
+    "underscore": "git://github.com/documentcloud/underscore.git#~1.5.1"
+  }
+}
