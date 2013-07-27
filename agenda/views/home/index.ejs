@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TESTE</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!--<script data-main="js/scripts/main" src="js/scripts/vendors/requirejs/require.js"></script>-->
+    <script data-main="js/scripts/main" src="js/scripts/vendors/jquery/jquery.min.js"></script>
+    <script data-main="js/scripts/main" src="js/scripts/vendors/underscore/underscore-min.js"></script>
+    <script data-main="js/scripts/main" src="js/scripts/vendors/backbone/backbone-min.js"></script>
+    <script src="lib/view/PostView.js"></script>
+    <script src="lib/model/PostModel.js"></script>
+
+    <script>
+            $(document).ready(function() {
+                var postView = new PostView();
+                postView.render();
+                $('body').append(postView.el);
+            });
+    </script>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <p>Welcome to Agenda</p>
+  </body>
+</html>
